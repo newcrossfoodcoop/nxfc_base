@@ -1,0 +1,8 @@
+version: '2'
+services:
+  base:
+    network_mode: host
+    build: .
+    ports:
+      - "8081:8081"
+    command: gulp test:express
