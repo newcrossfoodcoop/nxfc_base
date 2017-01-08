@@ -6,7 +6,7 @@ MAINTAINER Ben Simpson, ben@newcrossfoodcoop.org.uk
 
 RUN apk update
 RUN apk add git
-RUN npm install -g gulp abao
+RUN npm install -g gulp abao osprey-mock-service
 
 WORKDIR /home/app
 
